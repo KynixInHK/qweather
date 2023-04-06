@@ -1,0 +1,19 @@
+<view id="root">
+  <!-- <view class="block blur" style="height: 6em;"></view> -->
+  <view class="title blur">
+    <view class="tit">山东省 烟台市 莱山区</view>
+  </view>
+  <!-- <view class="block blur" style="height: 1em;"></view> -->
+  <view class="icons">
+    <image src="{{icon}}" class="icon"></image>
+  </view>
+  <view class="block" style="height: 2em;"></view>
+  <view class="text">{{text}}</view>
+  <view class="block" style="height: 1em;"></view>
+  <view class="temprature">{{temprature}} °C</view>
+  <view class="block" style="height: 1em;"></view>
+  <view class="wind">
+    <view class="windDir">{{windDir}}</view>
+    <view class="windScale">{{windScale}} 级</view>
+  </view>
+</view>
